@@ -67,3 +67,38 @@ body {
     color: black;
     margin-right: 32px;
 }
+
+.hero {
+    margin-top: 70px;
+}
+
+.hero_title {
+    color: #2F281E;
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.hero_text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.hero_content {
+    margin-right: 56px;
+    align-items: center;
+}
+
+.large_btn {
+    width: 180px;
+    font-weight: bold;
+}
+
+.hero_btn {
+    margin-top: 20px;
+}
+
+.hero_img {
+    width: 644px;
+    height: 495px;
+}
