@@ -15,7 +15,8 @@ body {
 }
 
 .menu,
-.designers_list {
+.designers_list,
+.product-managers_list {
     padding-left: 0;
     list-style: none;
 }
@@ -108,11 +109,6 @@ body {
     margin-top: 20px;
 }
 
-.hero_img {
-    width: 644px;
-    height: 495px;
-}
-
 .flex_hero {
     gap: 56px;
 }
@@ -171,17 +167,20 @@ body {
     gap: 113px;
 }
 
-.designers_text {
+.designers_text,
+.product-managers_text {
     margin: 0;
 }
 
-.designers_ttile {
+.designers_ttile,
+.product-managers_ttile {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
-.designers_list {
+.designers_list,
+.product-managers_list {
     margin-top: 40px;
     margin-bottom: 0;
     display: flex;
@@ -192,4 +191,14 @@ body {
 .designers_subtitle {
     margin-top: 0;
     margin-bottom: 10px;
+}
+
+.flex-product-managers {
+    flex-direction: row-reverse;
+    gap: 125px;
+}
+
+.product-managers_item {
+    display: flex;
+    gap: 30px;
 }
