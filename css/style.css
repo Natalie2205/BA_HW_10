@@ -4,6 +4,8 @@
 html,
 body {
     font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    line-height: var(--main-line-height);
     color: var(--main-font-color);
     min-height: 100vh;
 }
@@ -12,7 +14,8 @@ body {
     color: #2F281E;
 }
 
-.menu {
+.menu,
+.designers_list {
     padding-left: 0;
     list-style: none;
 }
@@ -36,7 +39,6 @@ body {
 .menu {
     display: flex;
     gap: 20px;
-    font-size: 16px;
     margin: 0;
     line-height: 28px;
 }
@@ -62,7 +64,6 @@ body {
     color: white;
     background: orange;
     padding: 13px;
-    font-size: 16px;
     transition: all .2s ease-in;
 }
 
@@ -116,15 +117,18 @@ body {
     gap: 56px;
 }
 
-.features {
+.section {
     margin-top: 100px;
+}
+
+.features {
     background-image: url(../assets/img/bg.png);
     background-size: cover;
     background-position: center;
 }
 
 .features_title {
-    font-size: 36px;    
+    font-size: 36px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -150,8 +154,6 @@ body {
 }
 
 .card_text {
-    font-size: 16px;
-    line-height: 26px;
     margin: 0;
 }
 
@@ -163,4 +165,31 @@ body {
 .features_btn {
     margin-top: 70px;
     margin-bottom: 74px;
+}
+
+.flex-designers {
+    gap: 113px;
+}
+
+.designers_text {
+    margin: 0;
+}
+
+.designers_ttile {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.designers_list {
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.designers_subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
 }

@@ -1,5 +1,7 @@
 :root {
     --main-font-family: "Montserrat", sans-serif;
     --main-font-color: #544837;
+    --main-font-size: 16px;
+    --main-line-height: 26px;
     --width-container: 1200px;
 }
