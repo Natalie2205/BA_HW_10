@@ -16,7 +16,8 @@ body {
 
 .menu,
 .designers_list,
-.product-managers_list {
+.product-managers_list,
+.marketers_list {
     padding-left: 0;
     list-style: none;
 }
@@ -168,19 +169,22 @@ body {
 }
 
 .designers_text,
-.product-managers_text {
+.product-managers_text,
+.marketers_text {
     margin: 0;
 }
 
-.designers_ttile,
-.product-managers_ttile {
+.designers_title,
+.product-managers_title,
+.marketers_title {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 20px;
 }
 
 .designers_list,
-.product-managers_list {
+.product-managers_list,
+.marketers_list {
     margin-top: 40px;
     margin-bottom: 0;
     display: flex;
@@ -188,7 +192,8 @@ body {
     gap: 30px;
 }
 
-.designers_subtitle {
+.designers_subtitle,
+.marketers_subtitle {
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -201,4 +206,8 @@ body {
 .product-managers_item {
     display: flex;
     gap: 30px;
+}
+
+.flex-marketers {
+    gap: 174px;
 }
